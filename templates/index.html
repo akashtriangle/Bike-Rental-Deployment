@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Rental Input Form</title>
+</head>
+<body>
+    <h2>Enter Details for Bike Rental Prediction</h2>
+    <div>
+    <form action="/input" method="POST">
+        
+        -- input features
+        <label for="season">Season:</label>
+        <input type="text" id="season" name="season"><br><br>
+
+        <label for="yr">Year (0 for 2011, 1 for 2012):</label>
+        <input type="text" id="yr" name="yr"><br><br>
+
+        <label for="holiday">Holiday (0 = No, 1 = Yes):</label>
+        <input type="text" id="holiday" name="holiday"><br><br>
+
+        <label for="weekday">Weekday (0 = Sunday, 6 = Saturday):</label>
+        <input type="text" id="weekday" name="weekday"><br><br>
+
+        <label for="workingday">Working Day (0 = No, 1 = Yes):</label>
+        <input type="text" id="workingday" name="workingday"><br><br>
+
+        <label for="weathersit">Weather Situation (1-4):</label>
+        <input type="text" id="weathersit" name="weathersit"><br><br>
+
+        <label for="temp">Temperature (Normalized, 0–1):</label>
+        <input type="text" id="temp" name="temp"><br><br>
+
+        <label for="hum">Humidity (Normalized, 0–1):</label>
+        <input type="text" id="hum" name="hum"><br><br>
+
+        <label for="windspeed">Windspeed (Normalized, 0–1):</label>
+        <input type="text" id="windspeed" name="windspeed"><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+</body>
+</html>
